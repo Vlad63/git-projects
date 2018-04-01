@@ -1,0 +1,67 @@
+<!-- Vlad63 -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="Lab1.css" rel="stylesheet">
+        <script src="Lab1.js"></script>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div style="text-align: center;">
+            <form id="myForm">
+                <p id="gText">Casino</p>
+                <p id="sText">Make a bet and Enter a number between 1 and 5<br>Then press 'Submit'</p>
+
+                <div id="waringBet"></div>
+
+                <div style="clear: both; padding-bottom: 5px;">
+                    <input type="text" value="Your bet" id="bet" onfocus="this.value=''">
+                    <br>
+                    <div style="padding-top: 5px;">
+                        <input type="button" value="Ok" id="okBet" onclick="okBtn()">
+                    </div>
+                </div>
+
+                <div id="waringBlock"></div>
+                <div id="waringBlockSecond"></div>
+                <div id="waringBlockthird"></div>
+
+                <div class="block">
+                    <input type="text" value="X" id="firstNumber" onfocus="this.value=''">
+                    <div id="firstRandom"></div>
+                </div>
+
+                <div class="block">
+                    <input type="text" value="X" id="secondNumber" onfocus="this.value=''">
+                    <div id="secondRandom"></div>
+                </div>
+
+                <div class="block">
+                    <input type="text" value="X" id="thirdNumber" onfocus="this.value=''">
+                    <div id="thirdRandom"></div>
+                </div>
+
+                <div class="block">
+                    <input type="text" value="X" id="fourthNumber" onfocus="this.value=''">
+                    <div id="fourthRandom"></div>
+                </div>
+
+                <div class="block">
+                    <input type="text" value="X" id="fifthNumber" onfocus="this.value=''">
+                    <div id="fifthRandom"></div>
+                </div>
+            </form>
+        </div>
+        <div style="text-align: center; clear: both;">
+            <br>
+            <input type="button" id="btn" value="Submit" onclick="btn()">
+            <br>
+            <div id="winBet"></div>
+            <div id="guess"></div>
+            <br>
+            <div id="resetForm"></div>
+            <br>
+            <input type="button" onclick="myFunction()" value="Reset form">
+        </div>
+    </body>
+</html>

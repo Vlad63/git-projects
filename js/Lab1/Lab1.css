@@ -1,0 +1,49 @@
+/* Vlad63 */
+#firstNumber,
+#secondNumber,
+#thirdNumber,
+#fourthNumber,
+#fifthNumber{
+    text-align: center;
+    width: 25px;
+}
+#bet{
+    text-align: center;
+}
+#waringBet,
+#waringBlock,
+#waringBlockSecond,
+#waringBlockthird{
+    font-size: 15pt;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: red;
+}
+.block{
+    position: relative;
+    float: left;
+    padding: 1px;
+    left: 44%;
+}
+#gText{
+    font-size: 30pt;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+#sText{
+    font-size: 15pt;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+ #guess{
+     font-size: 10pt;
+     font-family: Helvetica;
+     font-weight: bold;
+     color: green;
+ }
+ #resetForm{
+     font-size: 10pt;
+     font-family: Helvetica;
+     font-weight: bold;
+     color: red;
+ }
